@@ -1,7 +1,7 @@
 # CBR-Prototype-COVID
 A Prototype of a Case Based Reasoning System that may be useful to determine allocation of resources during the COVID pandemic
 
-*!!! Important Disclaimer: The dataset used in this project has been fabricated. It is NOT real. This project is a mere demonstration of the potential of case based reasoning in allocating resources in the hospital's overflowing COVID wards.*
+**!!! Important Disclaimer: The dataset used in this project has been fabricated. It is NOT real. This project is a mere demonstration of the potential of case based reasoning in allocating resources in the hospital's overflowing COVID wards.**
 
 *COVID data is highly sensitive and must be used with appropriate permission and proper care. Since this project is a _mere_ prototype, I have used a fabricated dataset*
 
