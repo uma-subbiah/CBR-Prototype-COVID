@@ -7,4 +7,41 @@ Case Based Reasoning is an Artificial Intelligence method that shows which of th
 
 Many, many thanks to the open source project at: [https://github.com/wguilen/red-wine-quality-cbr](https://github.com/wguilen/red-wine-quality-cbr) for the skeletal structure of the CBR and for the Java Swing component.
 
+CBR Systems typically comprise of the following 4 stages:
+
+1. RETRIEVAL:
+- Find the most similar cases from a database of previous cases. Any relevant cases must be considered.
+For each case considered, we need to observe:
+-- Case details
+--Solution and its outcome – did the solution work or not
+2. REUSE
+- Mapping the previous case to this case. Draw similarities and differences.
+For any difference in the case, we must consider how the solution will be affected.
+3. REVISE
+- Checking the solution and making any alterations to the result.
+4. RETAIN
+- Store the case details, solution and justification in the database for future reference.
+
+
 References:
+
+[1] http://theconversation.com/digital-diagnosis-intelligent-machines-do-a-better-job-than-humans-53116
+[2] https://emerj.com/ai-sector-overviews/machine-learning-medical-diagnostics-4-current-applications/
+[3] http://www.praxisemr.com/concept-processing.htm
+[4] Holt, Alec & Bichindaritz, Isabelle & Schmidt, Rainer & Perner, Petra. (2005). Medical applications in case-based reasoning. Knowledge Eng. Review. 20. 289-292. 10.1017/S0269888906000622
+[5] Choudhury, Nabanita & Ara, Shahin. (2016). A Survey on Case-based Reasoning in Medicine. International Journal of Advanced Computer Science and Applications. 7. 10.14569/IJACSA.2016.070820.
+[6] Holt, Alec & Bichindaritz, Isabelle & Schmidt, Rainer & Perner, Petra. (2005). Medical applications in case-based reasoning. Knowledge Eng. Review. 20. 289-292. 10.1017/S0269888906000622
+[7] M. U. Ahmed, S. Begum, P. Funk, N. Xiong, and B. Von Schéele, “Case-based reasoning for diagnosis of stress using enhanced cosine and fuzzy similarity,” Transactions on Case-Based Reasoning for Multimedia Data, vol. 1, no. 1, pp. 3-19, 2008.
+[8] S. Begum, M. U. Ahmed, P. Funk, N. Xiong, and B. Von Schéele, “A case‐based decision support system for individual stress diagnosis using fuzzy similarity matching,” Computational Intelligence, vol. 25, no. 3, pp. 180-195, 2009.
+[9] Machine Learning for Medical Diagnosis: History, State of the Art and Perspective Igor Kononenko
+[10] https://pdfs.semanticscholar.org/1bea/b7983a1aa6c37ef2fbf19462faa974604d5e.pdf
+[11] Corchado, J. M.; Bajo, J.; and Abraham, A. 2008. GERAmI: Improving the delivery of health care. In journal of IEEE Intelligent Systems. Special Issue on Ambient Intelligence. pp. 19-25
+[12] Begum, Shahina & Ahmed, Mobyen & Funk, Peter & Xiong, N & von Schéele, Bo. (2009). A Case-Based Decision Support System for Individual Stress Diagnosis Using Fuzzy Similarity Matching. Computational Intelligence. 25. 180-195. 10.1111/j.1467-8640.2009. 00337.x
+[13] https://thehealthcareblog.com/blog/2016/03/30/the-case-for-case-based-reasoning/
+[14] http://www.learninghealthcareproject.org/LHS_Report_2015.pdf
+[15] Foley, TJ, Vale, L.  What role for learning health systems in quality improvement within healthcare providers? Learn Health Sys.  2017. https://doi.org/10.1002/lrh2.10025
+[16] http://www.learninghealthcareproject.org/section/evidence/1/63/site-visit-to-geisinger-health-system
+[17] Machine Learning for Medical Diagnosis: History, State of the Art and Perspective Igor Kononenko
+[18] http://www.learninghealthcareproject.org/LHS_Report_2015.pdf
+[19] https://apps.who.int/iris/bitstream/handle/10665/37650/WHO_PHP_34.pdf?sequence=17
+[20] https://www.england.nhs.uk/wp-content/uploads/2015/01/nxt-steps-risk-strat-glewis.pdf
